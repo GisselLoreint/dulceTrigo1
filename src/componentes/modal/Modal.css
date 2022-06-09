@@ -1,0 +1,9 @@
+.titulo-m{
+    color: var(--red-wine);
+    font-family: 'breadley';
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-left: 12%;
+}
+

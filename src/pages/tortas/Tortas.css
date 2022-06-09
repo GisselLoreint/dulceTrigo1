@@ -1,0 +1,32 @@
+.titutlo {
+    font-family: 'breadley';
+    color: var(--red-wine);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+@media screen and (min-width:768px) {
+
+    .titutlo {
+        font-size: 45px;
+        margin-bottom: 3%;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+
+    .titutlo {
+        font-size: 55px;
+    }
+}
+
+
+@media screen and (min-width:1200px) {
+
+    .titutlo {
+       font-size: 70px;
+    }
+}

@@ -1,0 +1,156 @@
+nav {
+    background-color: var(--red-wine);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.linea-nav {
+    margin-top: -4.5%;
+    width: 100%;
+}
+
+hr {
+    background-color: var(--cream);
+    width: 80vh;
+    height: 4px;
+    margin-top: 2px;
+}
+
+
+#chk-menu {
+    display: none;
+}
+
+#chk-menu:checked~.items {
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-menu {
+    color: var(--beby-pink);
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 100%
+}
+
+.btn-menu i {
+    background-color: var(--pink-stick);
+    color: var(--black-rose);
+    padding: 5px 6px;
+    border-radius: 10px;
+    border: 1px solid var(--red-wine);
+    box-shadow: 4px 4px 6px var(--black-rose);
+}
+
+.items {
+    display: none;
+    font-family: 'delius';
+    font-size: 20px;
+    text-align: center;
+}
+
+.item {
+    color: var(--white);
+    margin: 7px;
+    text-decoration: none;
+}
+
+.item:hover {
+    color: rgba(248, 245, 246, 0.8);
+    text-decoration: solid var(--cream);
+    transform: scale(1.2);
+    transition: transform;
+    text-decoration: underline;
+    margin-left: 1rem;
+}
+
+@media screen and (min-width:768px) {
+
+    nav {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        padding: auto 0;
+    }
+
+    .btn-menu {
+        display: none;
+    }
+
+    .linea-nav {
+        margin-top: -2%;
+    }
+
+    .line-nav {
+        width: 3px;
+        height: 2.2rem;
+        background-color: var(--cream);
+        border-radius: 20px;
+        border: none;
+    }
+
+    .items {
+        display: flex;
+        margin: 1rem 0;
+    }
+
+    .item {
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: var(--white);
+        margin: auto 2.1rem;
+    }
+
+    .item:hover {
+        margin: auto 3rem;
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    .item:hover {
+        margin: auto 5rem;
+        font-size: 1.6rem;
+    }
+
+    .linea-nav {
+        margin-top: -2%;
+    }
+
+    .line-nav {
+        height: 2.6rem;
+    }
+
+    .item {
+        font-size: 0.5rem;
+        margin: auto 4.5rem;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+
+    .item:hover {
+        font-size: 2rem;
+    }
+
+    .item {
+        font-size: 1.8rem;
+        margin: auto 3rem;
+    }
+
+    .linea-nav {
+        margin-top: -1.5%;
+    }
+
+
+    .buttons-container input {
+        height: 50px;
+        width: 180px;
+    }
+}
