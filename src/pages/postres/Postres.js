@@ -3,7 +3,7 @@ import Header from '../../componentes/Header/Header';
 import NavBar from '../../componentes/NavBar/NavBar';
 import Footer from '../../componentes/Footer/Footer';
 import Navbarcatalogo from '../../componentes/Navbarcatalogo/Navbarcatalogo';
-import CatTortas from '../../componentes/Catalogo/CatPostres';
+import CatTortas from '../../componentes/Catalogo/catPostres';
 import Whatsapp from '../../componentes/whatsapp/Whatsapp';
 
 function Postres() {
