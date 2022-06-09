@@ -10,7 +10,7 @@ import obsesion from '../../assets/img/obsesion.svg';
 import baileys from '../../assets/img/baileys.svg';
 import red2 from '../../assets/img/red3.svg';
 
-function CatTortas() {
+function catTortas() {
     return (
         <div>
             <section id="container-tortas" class="tortas">
@@ -113,4 +113,4 @@ function CatTortas() {
     );
 }
 
-export default CatTortas;
+export default catTortas;

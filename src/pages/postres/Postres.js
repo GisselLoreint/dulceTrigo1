@@ -3,7 +3,7 @@ import Header from '../../componentes/Header/Header';
 import NavBar from '../../componentes/NavBar/NavBar';
 import Footer from '../../componentes/Footer/Footer';
 import Navbarcatalogo from '../../componentes/Navbarcatalogo/Navbarcatalogo';
-import CatTortas from '../../componentes/Catalogo/catPostres';
+import CatPostres from '../../componentes/Catalogo/catPostres';
 import Whatsapp from '../../componentes/whatsapp/Whatsapp';
 
 function Postres() {
@@ -13,7 +13,7 @@ function Postres() {
             <Header />
             <h2 className='titutlo'>Postres</h2>
             <Navbarcatalogo />
-            <CatTortas />
+            <CatPostres />
             <Whatsapp />
             <Footer />
         </div>
